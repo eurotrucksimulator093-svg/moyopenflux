@@ -12,7 +12,7 @@ jobs:
     timeout-minutes: 350
 
     env:
-      TRANSPORT: yandex
+      TRANSPORT: vyandex
       DOC_URL: ${{ secrets.YANDEX_DOC_URL }}
 
     steps:
